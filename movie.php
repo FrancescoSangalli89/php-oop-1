@@ -15,6 +15,6 @@ class Movie {
     }
 
     public function getMovieInfo() {
-        echo '<h2>titolo: ' . $this->title . '</h2>  <h3>Regista: '  . $this->director .  '</h3>  <div>Anno: '  . $this->release_year .  '</div>  <p>Trama: ' . $this->plot . '</p>';
+        echo '<h2>Titolo: ' . $this->title . '</h2>  <h3>Regista: '  . $this->director .  '</h3>  <div>Anno: '  . $this->release_year .  '</div>  <p>Trama: ' . $this->plot . '</p>';
     }
 }
