@@ -22,17 +22,17 @@ $movie2 = new Movie("Il Signore degli Anelli - La compagnia dell'Anello", "Peter
 
         <h1>Movies</h1>
 
-        <p>
+        <div>
             <?php
                 $movie1->getMovieInfo();
             ?>
-        </p>
+        </div>
 
-        <p>
+        <div>
             <?php
                 $movie2->getMovieInfo();
             ?>
-        </p>
+        </div>
 
 
     </main>
